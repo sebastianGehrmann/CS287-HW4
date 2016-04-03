@@ -1,0 +1,9 @@
+The preprocessing is done using preprocess.py and with preproces-test.py for the test set. 
+
+The file prepreprocessing is for the full PTB.txt file which converts it into the same format as the data given to us in this task (so that we can run preprocess.py on the result of that)
+
+The file HW4.lua has all implementations for models. Implementations work both on CPU and GPU.
+
+The file babbler.lua does the babbling for the LSTM. With that file you can generate the predictions for the kaggle competititon.
+
+The file csvformat.py formats the output of the babbler into the kaggle format for upload.
